@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import Sidebar from "./components/Sidebar/Sidebar";
 import { Routes, Route } from "react-router-dom";
@@ -13,10 +14,22 @@ function App() {
           <Route path="/dashboard" element={<Dashboard mode={mode}/>} />
         </Routes>
       </main>
+=======
+import React from "react";
+import Sidebar from "./components/Sidebar/Sidebar";
+
+function App() {
+  return (
+    <div>
+      <Sidebar />
+>>>>>>> 75392f955d789c47d4cdda85c01493242f9823e7
     </div>
   );
 }
 
 export default App;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 75392f955d789c47d4cdda85c01493242f9823e7
